@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,800;0,900;1,100;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #232020;
+}
+
+.titulo {
+    text-align: center;
+    color: #B053EC;
+    font-size: 28px;
+    text-shadow: 2px 1px 2px #000;
+    /*x, y, sombra, color de sombra */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* .contenedor-tarjetas {
+    border: 2px solid #000;
+    margin: 200px;
+    padding: 50px;
+}
+
+.contenedor-tarjetas .tarjeta {
+    border: 2px solid #000;
+} */
+
+c span {
+    display: block;
+    color: #B053EC;
+
+}
+
+.contenedor-tarjetas {
+    margin: 20px;
+    padding: 20px;
+    display: inline-flex;
+
+}
+
+.contenedor-tarjetas .tarjeta {
+    box-shadow: 10px 10px 10px #B053EC;
+    /*-10px -10px 10px #B053EC;*/
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: max-content;
+}
+
+p {
+    font-weight: italic;
+}
+
+.contenedor-tarjetas .tarjeta:first-child {
+    margin-right: 150px;
+}
